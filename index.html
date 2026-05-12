@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LÊ VĂN HÀO | Portfolio</title>
+  <!-- Font hiện đại và kiểu chữ đẹp cho portfolio -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <a href="#home" class="brand">LÊ VĂN HÀO</a>
+      <nav class="nav-menu">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#hobby">Hobby</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="theme-toggle" id="themeToggle" aria-label="Chuyển chế độ sáng tối">
+        <span class="sun">☀</span>
+        <span class="moon">🌙</span>
+      </button>
+    </header>
+
+    <main>
+      <section class="hero section" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow">Portfolio cá nhân</p>
+          <h1>Xin chào, tôi là <span>LÊ VĂN HÀO</span></h1>
+          <p class="subline">Sinh viên Công nghệ thông tin - Đồ họa kỹ thuật số</p>
+          <div class="typewriter">
+            <span id="typingText"></span>
+          </div>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">Liên hệ</a>
+            <a href="#projects" class="btn btn-secondary">Xem dự án</a>
+          </div>
+        </div>
+        <div class="hero-visual card-glass">
+          <div class="hero-avatar"></div>
+          <div class="hero-stats">
+            <div>
+              <h3>Designer</h3>
+              <p>Minimal UI</p>
+            </div>
+            <div>
+              <h3>Developer</h3>
+              <p>HTML / CSS</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about" id="about">
+        <div class="section-intro">
+          <p class="section-label">Giới thiệu</p>
+          <h2>Về tôi</h2>
+          <p>Tôi xây dựng giao diện portfolio hiện đại, tối giản với trải nghiệm mượt mà và bố cục sạch sẽ. Sở thích của tôi là kết hợp nghệ thuật và công nghệ.</p>
+        </div>
+        <div class="about-grid">
+          <article class="card card-glass fade-up">
+            <h3>Thông tin</h3>
+            <p><strong>Họ tên:</strong> LÊ VĂN HÀO</p>
+            <p><strong>Ngành học:</strong> Công nghệ thông tin</p>
+            <p><strong>Lĩnh vực:</strong> Đồ họa kỹ thuật số, UI/UX</p>
+          </article>
+          <article class="card card-glass fade-up">
+            <h3>Lộ trình học tập</h3>
+            <div class="timeline">
+              <div class="timeline-item">
+                <span>2023</span>
+                <p>Nhập học khoa Công nghệ thông tin</p>
+              </div>
+              <div class="timeline-item">
+                <span>2024</span>
+                <p>Phát triển kỹ năng UI/UX và thiết kế motion cơ bản</p>
+              </div>
+              <div class="timeline-item">
+                <span>2025</span>
+                <p>Tiếp tục nghiên cứu portfolio designer và dự án thực tế</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section skills" id="skills">
+        <div class="section-intro">
+          <p class="section-label">Kỹ năng</p>
+          <h2>Khả năng chuyên môn</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card card-glass fade-up">HTML</div>
+          <div class="skill-card card-glass fade-up">CSS</div>
+          <div class="skill-card card-glass fade-up">UI/UX</div>
+          <div class="skill-card card-glass fade-up">Photoshop</div>
+          <div class="skill-card card-glass fade-up">Illustrator</div>
+          <div class="skill-card card-glass fade-up">Figma</div>
+        </div>
+      </section>
+
+      <section class="section hobby" id="hobby">
+        <div class="section-intro">
+          <p class="section-label">Sở thích</p>
+          <h2>Sở thích của tôi</h2>
+        </div>
+        <div class="hobby-grid">
+          <article class="hobby-card card-glass fade-up">
+            <span class="icon">⚽</span>
+            <h3>Đá banh</h3>
+            <p>Tôi yêu vận động, phối hợp và khám phá sức bền khi chơi bóng cùng bạn bè.</p>
+          </article>
+          <article class="hobby-card card-glass fade-up">
+            <span class="icon">🎬</span>
+            <h3>Phim hoạt hình</h3>
+            <p>Xem phim hoạt hình giúp tôi thư giãn và lấy cảm hứng sáng tạo cho thiết kế.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section projects" id="projects">
+        <div class="section-intro">
+          <p class="section-label">Dự án</p>
+          <h2>Portfolio demo</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card card-glass fade-up">
+            <div class="project-meta">
+              <span>Web Design</span>
+              <h3>Landing page sản phẩm</h3>
+            </div>
+            <p>Thiết kế trang giới thiệu sản phẩm với giao diện minimal, trải nghiệm trực quan và cấu trúc thông tin rõ ràng.</p>
+          </article>
+          <article class="project-card card-glass fade-up">
+            <div class="project-meta">
+              <span>Branding</span>
+              <h3>Concept nhận diện</h3>
+            </div>
+            <p>Bộ nhận diện thương hiệu nhỏ với phong cách hiện đại, gradient nhẹ và hình ảnh tối giản.</p>
+          </article>
+          <article class="project-card card-glass fade-up">
+            <div class="project-meta">
+              <span>UI/UX</span>
+              <h3>App Design</h3>
+            </div>
+            <p>Thiết kế ứng dụng với cấu trúc dễ dùng, màu sắc thanh lịch và hiệu ứng tương tác mềm mại.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="section-intro">
+          <p class="section-label">Liên hệ</p>
+          <h2>Nói chuyện với tôi</h2>
+          <p>Gửi tin nhắn và tôi sẽ phản hồi nhanh chóng. Hoặc kết nối tại các mạng xã hội bên dưới.</p>
+        </div>
+        <div class="contact-grid">
+          <form class="contact-form card-glass fade-up">
+            <label>
+              Tên của bạn
+              <input type="text" placeholder="Nhập tên" />
+            </label>
+            <label>
+              Email
+              <input type="email" placeholder="Nhập email" />
+            </label>
+            <label>
+              Tin nhắn
+              <textarea rows="5" placeholder="Nhập nội dung"></textarea>
+            </label>
+            <button type="submit" class="btn btn-primary">Gửi tin nhắn</button>
+          </form>
+          <div class="contact-details card-glass fade-up">
+            <h3>Kênh liên lạc</h3>
+            <p>Facebook, Github, Instagram</p>
+            <div class="social-links">
+              <a href="#" aria-label="Facebook">Facebook</a>
+              <a href="#" aria-label="Github">Github</a>
+              <a href="#" aria-label="Instagram">Instagram</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2026 LÊ VĂN HÀO — Portfolio cá nhân</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
